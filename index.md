@@ -9,8 +9,8 @@ country: "de"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "48.156399"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "11.582160"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "Oct 10-11, 2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00 am - 4:30 pm CEST"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
+humandate: "Oct 10–11, 2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "9:00 am – 4:30 pm CEST"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2024-10-10      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2024-10-11        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Maximilian Frank","Florian Kohrt", "Renata Topinkova"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -135,6 +135,7 @@ address.
   <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
   or
   <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
+  Find the room with <a href="https://www.lmu.de/raumfinder/index.html#/building/bw0607/map?room=060700046_">LMU Raumfinder</a>.
 </p>
 {% elsif online == "true_public" %}
 <p id="where">
